@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = process.env.REACT_APP_API_BASE_URL;
+const baseUrl = process.env.NEXT_PUBLIC_REACT_APP_API_BASE_URL;
 
 export const getAllCards = async () => {
   try {
